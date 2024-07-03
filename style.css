@@ -1,0 +1,71 @@
+/*-------------------- CSS --------------------*/
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    min-height: 100vh;
+    background: linear-gradient(#ff5f40,#00acff);
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s all;
+}
+
+.btn i{
+    font-size: 40px;
+}
+
+.discord{
+    color: #006fff;
+    text-shadow: 0 0 30px #006effc9;
+}
+
+.btn-dc{
+    box-shadow:  0 20px 20px -17px #006effa9;
+}
+
+.btn-dc:hover{
+    transform: scale(1.2);
+    box-shadow:  0 30px 45px -12px #006eff8d;
+}
+
+.pinterest{
+    color: #ff5f40;
+    text-shadow: 0 0 30px #ff6040bc;
+}
+
+.btn-pt{
+    box-shadow: 0 20px 20px -17px #ff6040bc;
+}
+.btn-pt:hover{
+    transform: scale(1.2);
+    box-shadow: 0 30px 40px -12px #ff6040c2;
+}
+.telegram{
+    color: #00acff;
+    text-shadow: 0 0 30px #00aaffb6;
+}
+.btn-tg{
+    box-shadow: 0 20px 20px -17px #00aaffb6;
+}
+
+.btn-tg:hover{
+    transform: scale(1.2);
+    box-shadow: 0 30px 40px -12px #00aaffc9;
+}   
